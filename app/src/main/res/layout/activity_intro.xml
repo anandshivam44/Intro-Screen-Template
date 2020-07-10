@@ -46,8 +46,14 @@
         app:layout_constraintEnd_toStartOf="@+id/btn_next"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:tabBackground="@drawable/indicator_selector">
+        app:tabBackground="@drawable/indicator_selector"
+        android:animateLayoutChanges="true"
+        android:addStatesFromChildren="true"
+        app:tabMinWidth="0dp"
+        app:tabMaxWidth="15dp"
+        android:scrollbars="horizontal"
 
+        >
     </android.support.design.widget.TabLayout>
 
     <Button
@@ -65,6 +71,7 @@
         android:textColor="#fff"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView

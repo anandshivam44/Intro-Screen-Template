@@ -1,23 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item>
 
-        <shape android:shape="ring"
-            android:innerRadius="3dp"
-            android:thickness="2dp"
-            android:useLevel="false">
+    <item
 
+        android:width="15dp"
+        android:height="8dp"
+        android:gravity="center">
+
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
             <solid android:color="@color/gradient_start_color" />
-
-
-
+            <corners android:radius="10dp" />
         </shape>
-
-
-
     </item>
-
-
-
 </layer-list>
